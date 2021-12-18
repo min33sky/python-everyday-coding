@@ -7,6 +7,7 @@ def mysum(*items):
     if not items:
         return items
 
+    # ? 첫 번째 요소로 초기화하면 자료형도 같이 따라간다.
     output = items[0]
 
     for item in items[1:]:
