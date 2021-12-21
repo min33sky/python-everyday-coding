@@ -6,4 +6,6 @@ print(Counter('abcabcabbbc'))
 # 가장 많이 등장하는 글자부터 출력하기
 print(Counter('abcabcabbbc').most_common())
 
+# 출력할 튜플 개수 지정
 print(Counter('abcabcabbbc').most_common(1))
+print(Counter('abcabcabbbc').most_common(2))
